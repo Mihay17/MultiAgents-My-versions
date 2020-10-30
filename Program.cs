@@ -35,7 +35,7 @@ namespace MultiAgents {
                 agentArray[t, 53] = agent;
                 agentArray[t, 54] = agent2;
                 for (int i = 0; i < sleep2; i++)
-                {
+                {  
                     rasp[t, i] = -1;
                 }
                 for (int i = timeSlotsNumber - sleep1; i < timeSlotsNumber; i++)

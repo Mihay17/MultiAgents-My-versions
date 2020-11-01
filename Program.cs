@@ -35,12 +35,12 @@ namespace MultiAgents {
                 agentArray[t, 53] = agent;
                 agentArray[t, 54] = agent2;
                 for (int i = 0; i < sleep2; i++)
-                {  
-                    rasp[t, i] = -1;
+                {
+                    rasp[t, i] = 53;
                 }
                 for (int i = timeSlotsNumber - sleep1; i < timeSlotsNumber; i++)
                 {
-                    rasp[t, i] = -1;
+                    rasp[t, i] = 54;
                 }
             }
             float spos1 = 6, spos2 = 13, spos3 = 21.5f; // cтарт затрака, обеда и ужина

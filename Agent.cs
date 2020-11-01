@@ -18,7 +18,6 @@ namespace MultiAgents {
 			//this.startPosition = startPosition;
 			//this.maxPosition = maxPosition;
 			this.iterup = iterup;
-			this.currentPosition = startPosition;
 		}
 
 
